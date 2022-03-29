@@ -1,12 +1,13 @@
 ---
 layout: page
-title: submenus
+title: misc
 nav: true
 dropdown: true
+navigation_weight: 40
 children: 
-    - title: publications
-      permalink: /publications/
+    - title: experience
+      permalink: /experience/
     - title: divider
-    - title: projects
-      permalink: /projects/
+    - title: photos
+      permalink: /photos/
 ---

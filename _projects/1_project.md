@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Inference for Generative Capsule Models
+description: Novel part-based object recognition algorithm. 
+img: assets/img/thumbnails/egcm_thumbnail.jpg
 importance: 1
-category: work
+redirect: https://github.com/tsagkas/capsules
+category: Research Projects
 ---
 
 Every project has a beautiful feature showcase page.

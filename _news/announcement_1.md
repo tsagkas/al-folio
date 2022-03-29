@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-03-14 15:59:00-0400
 inline: true
 ---
 
-A simple inline announcement.
+:rotating_light: new paper available @ ArXiv: [Inference for Generative Capsule Models](https://arxiv.org/abs/2103.06676)

@@ -2,10 +2,11 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Below you can find information about projects that I have presented at international academic conferences.
 nav: true
-display_categories: [work, fun]
+display_categories: [Research Projects]
 horizontal: false
+navigation_weight: 30
 ---
 
 <!-- pages/projects.md -->
