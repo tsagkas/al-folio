@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: Below you can find information about projects that I have presented at international academic conferences.
 nav: true
