@@ -3,7 +3,7 @@ layout: page
 title: misc
 nav: true
 dropdown: true
-navigation_weight: 40
+navigation_weight: 80
 children: 
     - title: experience
       permalink: /experience/

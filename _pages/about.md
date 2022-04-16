@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+subtitle: PhD candidate @ <a href="http://web.inf.ed.ac.uk/ipab" target="_blank">University of Edinburgh</a>, <a href="https://www.edinburgh-robotics.org/" target="_blank">Edinburgh Centre for Robotics</a> (starting Sept. 2022)
 navigation_weight: 10
 profile:
   align: right
