@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I will be starting my PhD in Sept. 2022, at the [School of Informatics - University of Edinburgh](http://web.inf.ed.ac.uk/ipab), sponsored by the [Edinburgh Centre for Robotics](https://www.edinburgh-robotics.org/). My research objective will be to improve the spatial perception in autonomous systems, under visual degredation, with unconventional sensors (e.g. single-chip mmWave radars). 
+I will be starting my PhD in Sept. 2022, at the [School of Informatics - University of Edinburgh](http://web.inf.ed.ac.uk/ipab), sponsored by the [Edinburgh Centre for Robotics](https://www.edinburgh-robotics.org/), under the supervision of [Prof. Chris Xiaoxuan Lu](https://christopherlu.github.io/). My research objective will be to improve the spatial perception in autonomous systems, under visual degredation, with unconventional sensors (e.g. single-chip mmWave radars). 
 
 Last November I completed with distinction the **Artificial Intelligence master's programme** at the University of Edinburgh. For my master's dissertation project I worked on a novel inference algorithm for [generative capsule models](https://github.com/tsagkas/capsules), under the supervision of [Prof. Chris Williams](https://homepages.inf.ed.ac.uk/ckiw/).
 
