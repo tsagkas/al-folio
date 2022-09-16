@@ -6,6 +6,16 @@ description:
 nav: false
 navigation_weight: 60
 ---
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/gallery/misc/2022-09-08-CDT-RAS-cohort@UoE.jpg" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    2022-09-08 | CDT-RAS 2022 cohort @ University of Edinburgh, Edinburgh, UK
+</div>
+
+<!--  -->
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
