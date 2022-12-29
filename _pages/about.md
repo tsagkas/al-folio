@@ -6,7 +6,7 @@ subtitle: PhD candidate @ <a href="http://web.inf.ed.ac.uk/ipab" target="_blank"
 navigation_weight: 10
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_2.JPG
   address: >
     <p>Informatics Forum,</p>
     <p>10 Crichton Street,</p>
