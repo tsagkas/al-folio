@@ -17,7 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a PhD candidate, at the [MAPS Lab](https://maps-lab.github.io/) and the [School of Informatics - University of Edinburgh](http://web.inf.ed.ac.uk/ipab), sponsored by the [Edinburgh Centre for Robotics](https://www.edinburgh-robotics.org/), under the supervision of [Prof. Chris Xiaoxuan Lu](https://christopherlu.github.io/). My research objective is to improve the real-time spatial perception in robotics, utilizing Neural Fields. 
+I am a PhD candidate, at the [MAPS Lab](https://maps-lab.github.io/) and the [School of Informatics - University of Edinburgh](http://web.inf.ed.ac.uk/ipab), sponsored by the [Edinburgh Centre for Robotics](https://www.edinburgh-robotics.org/), under the supervision of [Prof. Chris Xiaoxuan Lu](https://christopherlu.github.io/) and [Prof. Oisin Mac Aodha](https://homepages.inf.ed.ac.uk/omacaod/). My research objective is to improve the real-time spatial perception in robotics, utilizing Neural Fields. 
 
 In November 2021, I completed with distinction the **Artificial Intelligence master's programme** at the University of Edinburgh. For my master's dissertation project I worked on a novel inference and learning algorithm for [generative capsule models](https://github.com/tsagkas/capsules), under the supervision of [Prof. Chris Williams](https://homepages.inf.ed.ac.uk/ckiw/).
 
