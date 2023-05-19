@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
+title: VL-Fields
+description: Towards Language-Grounded Neural Implicit Spatial Representations
 img: assets/img/1.jpg
 importance: 3
-category: fun
+category: Research Projects
 ---
 
 Every project has a beautiful feature showcase page.

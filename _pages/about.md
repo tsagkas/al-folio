@@ -24,3 +24,28 @@ In November 2021, I completed with distinction the **Artificial Intelligence mas
 In 2019, I was awarded the **Diploma of Electrical and Computer Engineering**, from the University of Patras, in Greece (graduated 4th in my class out of 202 students – GPA: 8.11 out of 10). I completed my ECE Diploma thesis under the supervision of [Prof. Athanassios Skodras](http://www.ece.upatras.gr/skodras/), researching the use of CNNs for [real-time hand-gesture recognition](/projects/2_project/) via sEMG signals. Our work was presented at the IISA'19 international conference. 
 
 Moreover, working under the supervision of [Prof. Konstantinos Moustakas](http://www.vvr.ece.upatras.gr/members/konstantinos-moustakas/) at the [VVR group](http://www.vvr.ece.upatras.gr/), I researched the use of Haptics in self-driving vehicles, by taking part in the 2nd Student Challenge in Automotive Haptics, at the [WHC'19](http://www.worldhaptics2019.org/) in Tokyo, Japan, where our team received the "Best Student Innovation Challenge Award".
+
+[VL-Fields](vl-fields/)
+
+<div class='row vspace-top'>
+  <div class="col-sm-3">
+      <img src='../assets/img/9.jpg' class='img-fluid'>
+  </div>
+
+  <div class="col">
+    <div class='paper-title'>
+        Incremental Abstraction in Distributed Probabilistic SLAM Graphs https://tsagkas.github.io/vl-fields/
+    </div>
+    <div class='paper-desc'>
+        ICRA 2022
+    </div>
+    <div class='paper-authors'>
+        <b>Joseph Ortiz</b>, Talfan Evans, Edgar Sucar, Andrew J. Davison
+    </div>
+    <div>
+      <a href="../vl-fields/">[Project Page]</a>  
+      <a href="https://arxiv.org/abs/2109.06241">[Paper]</a>  
+      <a href="https://www.youtube.com/watch?v=ZoJ9ylb4Ss8">[Video]</a>
+    </div>
+  </div>
+</div>
