@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="description"
         content="VL-Fields: Towards Language-Grounded Neural Implicit Spatial Representations.">
-  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+  <meta name="keywords" content="NeRF, CLIP">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>VL-Fields</title>
 
@@ -32,7 +32,7 @@
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
-  <link rel="icon" href="./static/images/favicon.svg">
+  <link rel="icon" href="./static/images/logo.jpg">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
@@ -91,16 +91,16 @@
           <h1 class="title is-1 publication-title">VL-Fields: Towards Language-Grounded Neural Implicit Spatial Representations</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://tsagkas.github.io">Nikolaos Tsagkas</a><sup>1</sup>,</span>
+              <a href="https://tsagkas.github.io">Nikolaos Tsagkas</a>,</span>
             <span class="author-block">
-              <a href="https://homepages.inf.ed.ac.uk/omacaod/">Oisin Mac Aodha</a><sup>1</sup>,</span>
+              <a href="https://homepages.inf.ed.ac.uk/omacaod/">Oisin Mac Aodha</a>,</span>
             <span class="author-block">
-              <a href="https://christopherlu.github.io/">Chris Xiaoxuan Lu</a><sup>1</sup>
+              <a href="https://christopherlu.github.io/">Chris Xiaoxuan Lu</a>
             </span>
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>University of Edinburgh</span>
+            <span class="author-block">University of Edinburgh</span>
             <!-- <span class="author-block"><sup>2</sup>Google Research</span> -->
           </div>
 
@@ -108,7 +108,7 @@
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="https://arxiv.org/pdf/2011.12948"
+                <a href="https://tsagkas.github.io/vl-fields"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -117,7 +117,7 @@
                 </a>
               </span>
               <span class="link-block">
-                <a href="https://arxiv.org/abs/2011.12948"
+                <a href="https://tsagkas.github.io/vl-fields"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
@@ -157,6 +157,17 @@
             </div> -->
 
           </div>
+
+
+
+
+        </div>
+
+        <div class="is-size-5 publication-authors">
+          <span class="author-block"> <mark><b>Spotlight Talk + Poster</b>:</mark>
+            
+            workshop on effective Representations, Abstractions, and Priors for Robot Learning @ICRA 2023 [<a href="https://sites.google.com/view/rap4robots">link</a>]</span>
+          <!-- <span class="author-block"><sup>2</sup>Google Research</span> -->
         </div>
       </div>
     </div>
@@ -164,7 +175,7 @@
 </section>
 
 
-
+<!-- OPEN VOC QUERIES -->
 <section class="hero is-light is-small">
   <div class="hero-body">
     <div class="container">
@@ -178,6 +189,7 @@
   </div>
 </section>
 
+<!-- ABSTRACT -->
 <section class="section">
   <div class="container is-max-desktop">
     <!-- Abstract. -->
@@ -202,7 +214,7 @@
   </div>
 </section>
 
-
+<!-- SEMANTIC SEGMENTATION -->
 <section class="hero is-light  is-small">
   <div class="hero-body">
     <div class="container">
@@ -216,6 +228,7 @@
   </div>
 </section>
 
+<!-- PIPELINE -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
@@ -231,77 +244,81 @@
   </div>
 </section>
 
-
-
-
-<section class="hero is-light  is-small">
+<!-- RENDERING -->
+<section class="hero is-light is-smal">
   <div class="hero-body">
-    <div class="container">
-      <div class="item item-chair-tp">
-
-        <div class="content has-text-centered">
-          <center>
-
-            <h2 class="title is-3">Depth and Photometry Rendering</h2>
-            <video id="replay-video"
-                   controls
-                   muted
-                   preload
-                   playsinline
-                   width="75%">
-              <source src="room_0_spiral_001500_joint_maps.mp4"
-                      type="video/mp4">
-            </video>
-          </center>
-        </div>
-    </div>
-  </div>
-</section>
-
-
-
-
-
-
-<section class="section">
-  <h2 class="title is-3">Jointly Encoding Depth & Photometry</h2>
-  <div class="container is-max-desktop">
-
-    
 
     <!-- Animation. -->
     <div class="columns is-centered">
-      <div class="column is-full-width">
-      
+      <!-- <div class="column is-full-width"> -->
+        <center>
+
+          <h2 class="title is-3">Encoding the scene photometry and geometry</h2>
+          
+          <div class="container is-max-desktop">
+            <!-- Abstract. -->
+            <div class="columns is-centered has-text-centered">
+              <div class="column is-four-fifths">
+                <div class="content has-text-justified">
+                  <p>
+                    VL-Fields jointly encodes the geometry and appearance of a scene, along with the visual-language features. 
+                    This allows us rely only on the neural-fields for re-rendering the input video, without the need of a stored point-cloud (like in CLIP-Fields).
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--/ Abstract. -->
+          </div>
+          <br>
+          <!-- Re-rendering. -->
+          <div class="content has-text-centered">
+            <video id="replay-video"
+            controls
+            muted
+            preload
+            playsinline
+            autoplay
+            loop
+            width="100%">
+            <source src="./static/videos/room_0.mp4"
+            type="video/mp4">
+          </video>
+        </center>
+        </div>
         <!--/ Re-rendering. -->
 
-      </div>
+      <!-- </div> -->
     </div>
     <!--/ Animation. -->
 
 
+
+  </div>
+</section>
+
+<!-- RELATED WORK -->
+<section class="section">
+  <div class="container is-max-desktop">
+
     <!-- Concurrent Work. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">Related Links</h2>
-
+        
         <div class="content has-text-justified">
+          <center>
+            <h2 class="title is-3">Related Work</h2>
+          </center>
           <p>
-            There's a lot of excellent work that was introduced around the same time as ours.
+            There's a lot of excellent work for grounding language into neural implicit representations.
           </p>
           <p>
-            <a href="https://arxiv.org/abs/2104.09125">Progressive Encoding for Neural Optimization</a> introduces an idea similar to our windowed position encoding for coarse-to-fine optimization.
+            <a href="https://arxiv.org/abs/2205.15585">DFF</a> introduced the idea of distilling knowledge from large language-vision models, for the purpose of grounding language into neural-fields.
           </p>
           <p>
-            <a href="https://www.albertpumarola.com/research/D-NeRF/index.html">D-NeRF</a> and <a href="https://gvv.mpi-inf.mpg.de/projects/nonrigid_nerf/">NR-NeRF</a>
-            both use deformation fields to model non-rigid scenes.
+            <a href="https://arxiv.org/abs/2210.05663">CLIP-Fields</a> demonstrated how such models can be used in the field of mobile robotics, for the purpose of commanding robots with natural language queries.
           </p>
           <p>
-            Some works model videos with a NeRF by directly modulating the density, such as <a href="https://video-nerf.github.io/">Video-NeRF</a>, <a href="https://www.cs.cornell.edu/~zl548/NSFF/">NSFF</a>, and <a href="https://neural-3d-video.github.io/">DyNeRF</a>
-          </p>
-          <p>
-            There are probably many more by the time you are reading this. Check out <a href="https://dellaert.github.io/NeRF/">Frank Dellart's survey on recent NeRF papers</a>, and <a href="https://github.com/yenchenlin/awesome-NeRF">Yen-Chen Lin's curated list of NeRF papers</a>.
-          </p>
+            More recently, <a href="https://arxiv.org/abs/2303.09553">LERF</a> addressed the limitations in utilizing fine-tuned VL models (e.g., LSeg), by directly extracting vision-language features from CLIP.</p>
         </div>
       </div>
     </div>
@@ -314,12 +331,15 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{park2021nerfies,
+    <!-- <pre><code>@article{park2021nerfies,
   author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
   title     = {Nerfies: Deformable Neural Radiance Fields},
   journal   = {ICCV},
   year      = {2021},
-}</code></pre>
+}</code></pre> -->
+
+  <pre><code>TBA
+</code></pre>
   </div>
 </section>
 
@@ -344,28 +364,24 @@
 <footer class="footer">
   <div class="container">
     <div class="content has-text-centered">
-      <a class="icon-link"
+      <!-- <a class="icon-link"
          href="./static/videos/nerfies_paper.pdf">
         <i class="fas fa-file-pdf"></i>
       </a>
       <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
         <i class="fab fa-github"></i>
-      </a>
+      </a> -->
     </div>
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
-          <p>
+          <!-- <p>
             This website is licensed under a <a rel="license"
                                                 href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
+          </p> -->
           <p>
-            This means you are free to borrow the <a
-              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
-            we just ask that you link back to this page in the footer.
-            Please remember to remove the analytics code included in the header of the website which
-            you do not want on your website.
+            This website is a modified version of <a href="https://github.com/nerfies/nerfies.github.io">nerfies</a>.
           </p>
         </div>
       </div>
