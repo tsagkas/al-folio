@@ -74,7 +74,7 @@ Moreover, working under the supervision of [Prof. Konstantinos Moustakas](http:/
     </div>
     <div>
       <a href="../vl-fields/">[Project Page]</a>  
-      <a href="https://tsagkas.github.io/vl-fields">[Paper]</a>  
+      <a href="https://arxiv.org/abs/2305.12427">[Paper]</a>  
     </div>
   </div>
 </div>
