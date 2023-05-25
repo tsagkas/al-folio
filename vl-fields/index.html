@@ -186,6 +186,23 @@
 </section>
 
 
+
+<head>
+  <style>
+   .video-container {
+      display: flex;
+    }
+
+    .video-container video {
+      width: 80%;
+    }
+
+    .video-caption {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+
 <!-- OPEN VOC QUERIES -->
 <section class="hero is-light is-small">
   <div class="hero-body">
@@ -193,11 +210,88 @@
       <div class="item item-chair-tp">
         <center>
             <h2 class="title is-3">Open-Vocabulary Queries</h2>
-            <img src="./static/images/open_voc.png" alt="semantic segmentation" width="50%" height="50%">
+            <img src="./static/images/open_voc.png" alt="semantic segmentation" width="60%" height="60%">
           </center>
         </div>
     </div>
-  </div>
+  
+  <br>
+  <div class="content has-text-centered">
+    <div class="columns is-centered">
+      <div class="video-container">
+        <div>
+          <video id="replay-video-1"
+        controls
+        muted
+        preload
+        playsinline
+        autoplay
+        loop
+        width="100%">
+        <source src="./static/videos/query_demo_blinds.mp4"
+        type="video/mp4"></video>
+          <div class="video-caption">
+            <p><b>Query</b>: "dust the blinds"</p>
+          </div>
+        </div>
+        <div>
+          <video id="replay-video-2"
+              controls
+              muted
+              preload
+              playsinline
+              autoplay
+              loop
+              width="100%">
+              <source src="./static/videos/query_demo_table.mp4"
+              type="video/mp4"></video>
+          <div class="video-caption">
+            <p><b>Query</b>: "clean the table"</p>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        var video = document.getElementById('replay-video-1');
+        video.playbackRate = 0.8; // Set the playback speed to 2x
+      </script>
+
+      <script>
+        var video = document.getElementById('replay-video-2');
+        video.playbackRate = 0.8; // Set the playback speed to 2x
+      </script>
+
+      <!-- <div class="video-container">
+        <video id="replay-video-2"
+        controls
+        muted
+        preload
+        playsinline
+        autoplay
+        loop
+        width="30%">
+        <source src="./static/videos/query_demo_blinds.mp4"
+        type="video/mp4"></video>
+  
+        <video id="replay-video-2"
+        controls
+        muted
+        preload
+        playsinline
+        autoplay
+        loop
+        width="30%">
+        <source src="./static/videos/query_demo_blinds.mp4"
+        type="video/mp4"></video>
+      </div> -->
+
+
+    </div>
+
+
+
+  </div>  
+</div>
 </section>
 
 <!-- ABSTRACT -->

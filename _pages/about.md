@@ -67,7 +67,9 @@ Moreover, working under the supervision of [Prof. Konstantinos Moustakas](http:/
         VL-Fields: Towards Language-Grounded Neural Implicit Spatial Representations
     </div>
     <div class='paper-desc'>
-        <i>Workshop on Effective Representations, Abstractions, and Priors for Robot Learning - ICRA 2023 </i>
+        <b><span style="background-color: green;">Spotlight Talk + Poster</span></b>: <i>Workshop on Effective Representations, Abstractions, and Priors for Robot Learning - ICRA 2023</i> 
+    </div>
+    <div>
     </div>
     <div class='paper-authors'>
         <b>Nikolaos Tsagkas</b>, Oisin Mac Aodha, Chris Xiaoxuan Lu
